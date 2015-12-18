@@ -1,0 +1,27 @@
+{
+  "name": "hubot-ascii",
+  "version": "0.0.1",
+  "description": "A hubot script to generate ascii images based on google image search",
+  "main": "./src/index.coffee",
+  "dependencies": {
+    "g-i-s": "^1.0.1",
+    "grafty": "frankdeck/node-grafty",
+    "request": "^2.67.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankdeck/hubot-ascii.git"
+  },
+  "keywords": [
+    "ascii",
+    "hubot",
+    "hubot-scripts",
+    "hubot-ascii"
+  ],
+  "author": "Frank Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankdeck/hubot-ascii/issues"
+  },
+  "homepage": "https://github.com/frankdeck/hubot-ascii#readme"
+}
