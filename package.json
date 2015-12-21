@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frankdeck/hubot-ascii.git"
+    "url": "https://github.com/frankdeck/hubot-ascii"
   },
   "keywords": [
     "ascii",
@@ -23,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/frankdeck/hubot-ascii/issues"
   },
-  "homepage": "https://github.com/frankdeck/hubot-ascii#readme"
+  "homepage": "https://github.com/frankdeck/hubot-ascii",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "^0.12.7",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
 }

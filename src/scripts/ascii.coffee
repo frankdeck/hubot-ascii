@@ -19,8 +19,6 @@ Grafty  = require "grafty"
 request = require "request"
 
 module.exports = (robot) ->
-  console.log robot.adapterName
-
   robot.respond /ascii me (.*)/i, (res) ->
     query = res.match[1]
     res.send "Working on it..."
