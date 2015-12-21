@@ -1,6 +1,6 @@
 {
   "name": "hubot-ascii",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A hubot script to generate ascii images based on google image search",
   "main": "./src/index.coffee",
   "dependencies": {
